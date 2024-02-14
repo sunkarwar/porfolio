@@ -13,6 +13,8 @@
 }
 a:hover {
     background-color: blueviolet;
+    text-decoration-line: underline;
+    font-style: ;
 }
 #div_name {
     color: wheat;
@@ -54,4 +56,25 @@ i.fab{
     box-shadow: 5px 10px 8px #888888;
     max-width: 40%;
     height: max-content;
+}
+#scrollUpBtn {
+    float: right;
+    color:darkmagenta;
+}
+button {
+    background-color: transparent;
+    color: darkmagenta;
+    border-color: darkmagenta;
+}
+#popUp {
+    display: none;
+    background-color: wheat;
+    border:2px dotted lightpink;
+    width:400px;
+    padding: 5px;
+}
+
+
+i.fas {
+    color: darkmagenta;
 }

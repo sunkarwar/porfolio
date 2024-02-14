@@ -57,6 +57,24 @@
             <h3> CSS3</h3>
             <p>2 years of experience</p>
         </div>
+
+        <div id="div_skill">
+            <h1><i class="fab fa-golang"></i></h1>
+            <h3> Go Lang</h3>
+            <p>2 years of experience</p>
+        </div>
+
+        <div id="div_skill">
+            <h1><i class="fab fa-react"></i></h1>
+            <h3> React</h3>
+            <p>2 years of experience</p>
+        </div>
+
+        <div id="div_skill">
+            <h1><i class="fab fa-docker"></i></i></h1>
+            <h3> Docker</h3>
+            <p>2 years of experience</p>
+        </div>
     </div>
     </arcticle>
     <arcticle id="projects">
@@ -85,12 +103,22 @@
             <div id="div_msg"> <p>"Sau is an energetic developer and is fun to work with" - John Doe </p></div>
         </div>
         <center>
+            <div id="popUp">
+                <i class="fas fa-check"></i>
+                <h3>Thank you for submitting a recommendation!</h3>
+                <button onClick="turnOff()">Ok</button>
+            </div>
+        </center>
+        <center>
         <h3>Leave a Recommendation</h3>
         <div id="div_recommend">
             <input id="name" type="text" size="50" placeholder="Name (Optional)"><br>
             <textarea id="message" rows="4" cols="50">Message</textarea><br>
-            <input type="submit" value="Submit" onClick="onSubmitMessage()"></center>
+            <button onClick="onSubmitMessage()">Submit</button></center>
         </div>
     </article>
+    <div id="scrollUpBtn">
+    <button onClick="topFunction()"><i class="fas fa-arrow-up"></i></button>
+    </div>
 </body>
 </html>
